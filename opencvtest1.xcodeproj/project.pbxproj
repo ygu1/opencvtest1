@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B398C0F21BBA161F0048534A /* barcode-blur.png in Resources */ = {isa = PBXBuildFile; fileRef = B398C0F11BBA161F0048534A /* barcode-blur.png */; settings = {ASSET_TAGS = (); }; };
 		B3AF5ADA1B9CF54C00016634 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AF5AD91B9CF54C00016634 /* main.m */; };
-		B3AF5ADD1B9CF54C00016634 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AF5ADC1B9CF54C00016634 /* AppDelegate.m */; };
-		B3AF5AE01B9CF54C00016634 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AF5ADF1B9CF54C00016634 /* ViewController.m */; };
+		B3AF5ADD1B9CF54C00016634 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = B3AF5ADC1B9CF54C00016634 /* AppDelegate.mm */; };
+		B3AF5AE01B9CF54C00016634 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B3AF5ADF1B9CF54C00016634 /* ViewController.mm */; };
 		B3AF5AE31B9CF54C00016634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AF5AE11B9CF54C00016634 /* Main.storyboard */; };
 		B3AF5AE51B9CF54C00016634 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3AF5AE41B9CF54C00016634 /* Images.xcassets */; };
 		B3AF5AE81B9CF54C00016634 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3AF5AE61B9CF54C00016634 /* LaunchScreen.xib */; };
 		B3AF5AF41B9CF54C00016634 /* opencvtest1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AF5AF31B9CF54C00016634 /* opencvtest1Tests.m */; };
+		B3AF5B021B9CF7D900016634 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AF5B011B9CF7D900016634 /* opencv2.framework */; };
+		B3AF5B041B9CF97900016634 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AF5B031B9CF97900016634 /* AssetsLibrary.framework */; };
+		B3AF5B061B9CF98000016634 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AF5B051B9CF98000016634 /* AVFoundation.framework */; };
+		B3AF5B081B9CF98B00016634 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AF5B071B9CF98B00016634 /* CoreGraphics.framework */; };
+		B3AF5B0A1B9CF99700016634 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AF5B091B9CF99700016634 /* Foundation.framework */; };
+		B3DF2DD01BD0287F00F8BD6C /* barcode_sample_3.png in Resources */ = {isa = PBXBuildFile; fileRef = B3DF2DCF1BD0287F00F8BD6C /* barcode_sample_3.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +34,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B398C0F11BBA161F0048534A /* barcode-blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barcode-blur.png"; sourceTree = "<group>"; };
 		B3AF5AD41B9CF54C00016634 /* opencvtest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = opencvtest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3AF5AD81B9CF54C00016634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3AF5AD91B9CF54C00016634 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3AF5ADB1B9CF54C00016634 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B3AF5ADC1B9CF54C00016634 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3AF5ADC1B9CF54C00016634 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		B3AF5ADE1B9CF54C00016634 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B3AF5ADF1B9CF54C00016634 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3AF5ADF1B9CF54C00016634 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		B3AF5AE21B9CF54C00016634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3AF5AE41B9CF54C00016634 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B3AF5AE71B9CF54C00016634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B3AF5AED1B9CF54C00016634 /* opencvtest1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = opencvtest1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3AF5AF21B9CF54C00016634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3AF5AF31B9CF54C00016634 /* opencvtest1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = opencvtest1Tests.m; sourceTree = "<group>"; };
+		B3AF5B001B9CF78700016634 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = opencvtest1/PrefixHeader.pch; sourceTree = "<group>"; };
+		B3AF5B011B9CF7D900016634 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../opencv2.framework; sourceTree = "<group>"; };
+		B3AF5B031B9CF97900016634 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B3AF5B051B9CF98000016634 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B3AF5B071B9CF98B00016634 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3AF5B091B9CF99700016634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3DF2DCF1BD0287F00F8BD6C /* barcode_sample_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barcode_sample_3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3AF5B0A1B9CF99700016634 /* Foundation.framework in Frameworks */,
+				B3AF5B081B9CF98B00016634 /* CoreGraphics.framework in Frameworks */,
+				B3AF5B061B9CF98000016634 /* AVFoundation.framework in Frameworks */,
+				B3AF5B041B9CF97900016634 /* AssetsLibrary.framework in Frameworks */,
+				B3AF5B021B9CF7D900016634 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,12 @@
 		B3AF5ACB1B9CF54C00016634 = {
 			isa = PBXGroup;
 			children = (
+				B3AF5B091B9CF99700016634 /* Foundation.framework */,
+				B3AF5B071B9CF98B00016634 /* CoreGraphics.framework */,
+				B3AF5B051B9CF98000016634 /* AVFoundation.framework */,
+				B3AF5B031B9CF97900016634 /* AssetsLibrary.framework */,
+				B3AF5B011B9CF7D900016634 /* opencv2.framework */,
+				B3AF5B001B9CF78700016634 /* PrefixHeader.pch */,
 				B3AF5AD61B9CF54C00016634 /* opencvtest1 */,
 				B3AF5AF01B9CF54C00016634 /* opencvtest1Tests */,
 				B3AF5AD51B9CF54C00016634 /* Products */,
@@ -82,9 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				B3AF5ADB1B9CF54C00016634 /* AppDelegate.h */,
-				B3AF5ADC1B9CF54C00016634 /* AppDelegate.m */,
+				B3AF5ADC1B9CF54C00016634 /* AppDelegate.mm */,
 				B3AF5ADE1B9CF54C00016634 /* ViewController.h */,
-				B3AF5ADF1B9CF54C00016634 /* ViewController.m */,
+				B3AF5ADF1B9CF54C00016634 /* ViewController.mm */,
 				B3AF5AE11B9CF54C00016634 /* Main.storyboard */,
 				B3AF5AE41B9CF54C00016634 /* Images.xcassets */,
 				B3AF5AE61B9CF54C00016634 /* LaunchScreen.xib */,
@@ -96,6 +122,8 @@
 		B3AF5AD71B9CF54C00016634 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B3DF2DCF1BD0287F00F8BD6C /* barcode_sample_3.png */,
+				B398C0F11BBA161F0048534A /* barcode-blur.png */,
 				B3AF5AD81B9CF54C00016634 /* Info.plist */,
 				B3AF5AD91B9CF54C00016634 /* main.m */,
 			);
@@ -200,6 +228,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3AF5AE31B9CF54C00016634 /* Main.storyboard in Resources */,
+				B398C0F21BBA161F0048534A /* barcode-blur.png in Resources */,
+				B3DF2DD01BD0287F00F8BD6C /* barcode_sample_3.png in Resources */,
 				B3AF5AE81B9CF54C00016634 /* LaunchScreen.xib in Resources */,
 				B3AF5AE51B9CF54C00016634 /* Images.xcassets in Resources */,
 			);
@@ -219,8 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3AF5AE01B9CF54C00016634 /* ViewController.m in Sources */,
-				B3AF5ADD1B9CF54C00016634 /* AppDelegate.m in Sources */,
+				B3AF5AE01B9CF54C00016634 /* ViewController.mm in Sources */,
+				B3AF5ADD1B9CF54C00016634 /* AppDelegate.mm in Sources */,
 				B3AF5ADA1B9CF54C00016634 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +313,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -326,6 +357,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -347,6 +379,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Leo/Desktop/opencvios/ios,
+					/Users/Leo/Desktop/opencvios,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = opencvtest1/PrefixHeader.pch;
 				INFOPLIST_FILE = opencvtest1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +396,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Leo/Desktop/opencvios/ios,
+					/Users/Leo/Desktop/opencvios,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = opencvtest1/PrefixHeader.pch;
 				INFOPLIST_FILE = opencvtest1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +462,7 @@
 				B3AF5AF91B9CF54C00016634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3AF5AFA1B9CF54C00016634 /* Build configuration list for PBXNativeTarget "opencvtest1Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +471,7 @@
 				B3AF5AFC1B9CF54C00016634 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
